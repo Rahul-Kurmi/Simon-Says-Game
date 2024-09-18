@@ -1,0 +1,149 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Game Section Styling */
+  .game-section {
+    flex: 2;
+    margin-right: 50px;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px; /* Vertical spacing between rows */
+    column-gap: 30px; /* Horizontal spacing between buttons */
+  }
+  
+  .btn {
+    height: 130px; /* Slightly bigger for better visibility */
+    width: 130px;
+    border-radius: 20%;
+    border: 10px solid black;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Updated Colors */
+  .red {
+    background-color: #ff6b6b; /* Soft Red */
+  }
+  
+  .yellow {
+    background-color: #feca57; /* Light Yellow */
+  }
+  
+  .green {
+    background-color: #1dd1a1; /* Soft Green */
+  }
+  
+  .purple {
+    background-color: #5f27cd; /* Purple */
+  }
+  
+  /* Flashing Colors */
+  .flash {
+    background-color: white;
+  }
+  
+  .userFlash {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Score Section Styling */
+  .score-section {
+    flex: 1;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .score-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .score-display {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #score-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  #score-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  /* Level Indicator */
+  .level-indicator {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .level-indicator p {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  #level-display {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
